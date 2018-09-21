@@ -1,3 +1,7 @@
-TEST DOWNLOAD FILE
-SYLLABUS 1
-syllabus01.txt
+Advanced Artificial Intelligence
+
+- Introduction to Intelligent Agents
+- Problem Solving and Search
+- Uncertain Knowledge and Reasoning
+- Learning
+- Communicating, Perceiving and Acting

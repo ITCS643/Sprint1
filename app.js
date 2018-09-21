@@ -26,6 +26,13 @@ app.get('/courses', function (req, res) {
    res.sendFile( __dirname + "/" + "list.html" );
 })
 
+app.get('/course/:courseId', function (req, res) {
+   console.log("Response with Syllabus file")
+   console.log(req.params)
+   var courseId = req.params['courseId']
+   res.sendFile( __dirname + "/" + "course/" + "ITCS" + courseId + ".html" );
+})
+
 app.get('/course/syllabus/:courseId', function (req, res) {
    console.log("Response with Syllabus file")
    console.log(req.params)

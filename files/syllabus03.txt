@@ -1,3 +1,9 @@
-TEST DOWNLOAD FILE
-SYLLABUS 3
-syllabus03.txt
+Database Design and Administration
+
+- Basic concepts of database for database design
+- Database design concept
+- Conceptual design
+- Logical design
+- Physical design
+- Query processing and optimization
+- Data and database administration
