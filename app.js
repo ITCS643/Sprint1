@@ -27,7 +27,7 @@ app.get('/courses', function (req, res) {
 })
 
 app.get('/course/:courseId', function (req, res) {
-   console.log("Response with Syllabus file")
+   console.log("Response with Course index page")
    console.log(req.params)
    var courseId = req.params['courseId']
    res.sendFile( __dirname + "/" + "course/" + "ITCS" + courseId + ".html" );
